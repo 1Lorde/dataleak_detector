@@ -1,0 +1,12 @@
+certifi==2021.10.8
+charset-normalizer==2.0.7
+getmac==0.8.2
+idna==3.3
+limits==1.5.1
+pylogbeat==2.0.0
+python-logstash-async==2.3.0
+pyudev==0.22.0
+requests==2.26.0
+six==1.16.0
+urllib3==1.26.7
+WMI==1.4.9
