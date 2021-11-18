@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="section"></div>
+<div class="column is-4 is-offset-4">
+    <div class="message is-dark" id="card_shadow">
+        <div class="message-header">
+            <div class="level-left">
+                {% block message_header %}
+                {% endblock %}
+            </div>
+        </div>
+        <div class="message-body">
+            {% include 'notification.html' %}
+            {% block message_body %}
+            {% endblock %}
+        </div>
+    </div>
+</div>
+{% endblock %}
