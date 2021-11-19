@@ -1,8 +1,8 @@
 from concurrent.futures import ThreadPoolExecutor
 
-from agent.api import update_allowed_drives
-from agent.usb import watch_drives_win, watch_drives_linux
-from agent.utils import get_os
+from api import update_allowed_drives
+from usb import watch_drives_win, watch_drives_linux
+from utils import get_os
 
 if __name__ == '__main__':
     with ThreadPoolExecutor(max_workers=2) as executor:

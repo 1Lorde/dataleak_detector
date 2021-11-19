@@ -1,6 +1,5 @@
 from flask import Flask
 from flask_login import LoginManager
-from flask_talisman import Talisman
 
 
 # init SQLAlchemy so we can use it later in our models
@@ -10,7 +9,7 @@ from models import db
 def create_app():
     app = Flask(__name__)
 
-    app.config['SECRET_KEY'] = 'secret-key-goes-here'
+    app.config['SECRET_KEY'] = 'a7d47a84d369440e9ce6283976328e2d'
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data/usb_detect.sqlite'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 

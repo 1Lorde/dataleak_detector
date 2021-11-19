@@ -36,4 +36,4 @@ def block_linux(user):
 
 def block_win(user):
     # os.system('usermod -L ' + user)
-    os.system('locker\\winlock.exe')
+    os.system('locker/Block.exe')

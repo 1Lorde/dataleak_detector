@@ -84,11 +84,8 @@ def devices():
 
 
 if __name__ == '__main__':
+    from os import sys, path
+    sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
     app = create_app()
-    # with app.test_request_context():
-    #     db.create_all()
-    #     # new_user = User(username="admin", password=generate_password_hash('admin', method='sha256'))
-    #     # db.session.add(new_user)
-    #     db.session.commit()
 
     app.run(debug=False, port=5001)

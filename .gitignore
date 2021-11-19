@@ -1,0 +1,5 @@
+.idea/
+agent/venv/
+control_panel/venv/
+agent/__pycache__
+control_panel/__pycache__

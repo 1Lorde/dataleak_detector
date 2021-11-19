@@ -3,12 +3,10 @@ import logging
 from logstash_async.formatter import LogstashFormatter
 from logstash_async.handler import AsynchronousLogstashHandler
 
-# elk_host = '212.111.196.117'
-elk_host = '10.33.33.7'
+elk_host = '212.111.196.117'
 elk_port = 5000
 
-# management_host = '212.111.196.117'
-management_host = 'localhost'
+management_host = '212.111.196.117'
 management_port = 5001
 
 local_db_filename = 'hashes.txt'
