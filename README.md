@@ -4,12 +4,12 @@
 
 
 ## Demo videos:
- 1. ![Demo video (EN)](https://github.com/1Lorde/dataleak_detector/raw/master/demo/demo_en.mp4)
- 2. ![Demo video (UKR)](https://github.com/1Lorde/dataleak_detector/raw/master/demo/demo_ukr.mp4)
+ 1. ![Demo video (EN)](/demo/demo_en.mp4)
+ 2. ![Demo video (UKR)](/demo/demo_ukr.mp4)
 
 
 ## DataLeak Agent Build
-![DataLeak Agent screenshot](/dataleak_detector/master/img/agent.png)
+![DataLeak Agent screenshot](/img/agent.png)
 
 ### Prerequisites
  1. Python 3.9 - [Download](https://www.python.org/downloads/release/python-390/).
@@ -31,7 +31,7 @@
 
 ## DataLeak Control Panel Build
 
-![DataLeak Control Panel screenshot](/dataleak_detector/master/img/control_panel3.png)
+![DataLeak Control Panel screenshot](/img/control_panel3.png)
 
  ### Prerequisites
  1. Python 3.9 - [Download](https://www.python.org/downloads/release/python-390/).
@@ -43,4 +43,4 @@
  4. Execute command `python main.py`.
 
 ## Kibana Dashboard
-![Kibana Dashboard screenshot](/dataleak_detector/master/img/kibana.png)
+![Kibana Dashboard screenshot](/img/kibana.png)
