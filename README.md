@@ -4,8 +4,8 @@
 
 
 ## Demo videos:
- 1. ![Demo video (EN)](/demo/demo_en.mp4)
- 2. ![Demo video (UKR)](/demo/demo_ukr.mp4)
+ 1. [Demo video (EN)](/demo/demo_en.mp4)
+ 2. [Demo video (UKR)](/demo/demo_ukr.mp4)
 
 
 ## DataLeak Agent Build
